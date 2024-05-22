@@ -1,0 +1,70 @@
+main{
+    margin: 0 15%;
+}
+h2{
+    font-size:  2.3rem;
+    padding-left: 5px;
+}
+
+h1{
+    font-size: 5rem;
+    margin: 1rem 0;
+    display: flex;
+    justify-content: center;
+}
+
+/* Part 01 - main - primeira imagem e texto */
+.first_info{
+    padding: 3%;
+    margin: 10px;
+}
+.first_info img{
+    margin-left: 3rem;
+    width: 45%;
+    height: 32rem;
+    float: right;
+    flex-wrap: wrap;
+    object-fit: cover;
+}
+.first_info p{
+    font-size: 1.20rem;
+    text-align: left;
+    line-height: 1.5rem;
+    text-align: justify;
+    line-height: 1.5;
+}
+
+/* Part 02 - main - segunda imagem e texto */
+.doe{
+    text-align: center;
+}
+.second_info{
+    padding: 10% 0;
+    padding: 3%;
+    margin: 10px;
+    
+}
+.second_info img{
+    margin-right: 3rem;
+    width: 41%;
+    height: 23rem;
+    float: left;
+    flex-wrap: wrap;
+    object-fit: cover;
+}
+.second_info p{
+    font-size: 1.20rem;
+    text-align: right;
+    line-height: 1.5rem;
+    text-align: justify;
+    line-height: 1.5;
+}
+.second_info ul{
+    list-style-type: disc;
+    white-space: pre-wrap;
+}
+.second_info ul li{
+    font-size: 1.20rem;
+    text-align: justify;
+    line-height: 1.5rem;
+}

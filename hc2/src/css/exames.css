@@ -1,0 +1,82 @@
+main{
+    margin: 0 15%;
+}
+h2{
+    font-size:  2.3rem;
+    padding-left: 5px;
+    border-left: 2px solid rgb(0, 0, 0, 0.5);
+}
+.title{
+    font-size: 2.4rem;
+    margin: 1rem 0;
+    display: flex;
+    justify-content: center;
+}
+.title img {
+    margin: 5rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Part 01 - main - primeira imagem e texto */
+.video-exame {
+    width: 560px; 
+    height: 315px; 
+    margin: 20px auto; 
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  }
+.first_info{
+    padding-bottom: 20px;
+}
+.first_info img{
+    margin-left: 3rem;
+    width: 50%;
+    height: 40rem;
+    float: right;
+    object-fit: cover;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+.first_info p{
+    font-size: 1.20rem;
+    text-align: left;
+    line-height: 1.5rem;
+    text-align: justify;
+    line-height: 1.5;
+}
+
+/* Part 02 - main - segunda imagem e texto */
+.second_info{
+    padding: 10% 0;
+}
+.second_info img{
+    margin-right: 3rem;
+    width: 50%;
+    height: 54rem;
+    float: left;
+    object-fit: cover;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.second_info p{
+    font-size: 1.20rem;
+    text-align: right;
+    line-height: 1.5rem;
+    text-align: justify;
+    line-height: 1.5;
+}
+.second_info ul{
+    list-style-type: disc;
+    white-space: pre-wrap;
+}
+.second_info ul li{
+    font-size: 1.20rem;
+    text-align: justify;
+    line-height: 1.5rem;
+}
+.second__info_sangue img {
+    margin-right: 3rem;
+    width: 50%;
+    height: 39rem;
+    float: left;
+    object-fit: cover;
+}

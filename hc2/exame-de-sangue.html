@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exame de Sangue</title>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./src/css/style.css">
+    <link rel="stylesheet" href="./src/css/exames.css">
+    <link rel="stylesheet" href="/src/css/chatbot.css">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <script src="/src/js/script.js" defer></script>
+</head>
+<body>
+    <header>
+        <div>
+            <nav>
+                <img src="./src/img/logo.png" alt="Logo ICR">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="index.html">Exames</a></li> <!-- TROCAR DPS OS LINKS!! -->
+                    <li><a href="doacao.html">Doações</a></li>
+                </ul>
+                
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="title">
+            <img src="src/img/circulo_vermelho.png" width="40px" height="40px" >
+            <h1>Exame de Sangue</h1>
+            <img class="circulo2" src="src/img/circulo_vermelho.png" width="40px" height="40px">
+        </div>
+        
+        <div class="video-exame">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/HgNPdXTCXKQ?si=CDlBqtvY86xEOhkm" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+
+        <!-- Main - part 01 -->
+        <div class="first_info">
+            <h2>Sobre exame</h2>
+            <div class="first__info">
+                <img src="src/img/exame-de-sangue.jpg" alt="Imagem Exame-de-Sangue 1">
+                <p>
+                  O exame de sangue é uma ferramenta fundamental no campo da medicina, oferecendo insights valiosos sobre a saúde e o bem-estar do paciente. Este procedimento simples e amplamente utilizado fornece uma riqueza de informações que os profissionais de saúde podem usar para diagnosticar condições médicas, monitorar tratamentos e prevenir doenças.
+                    <br><br>     
+                    Durante o exame de sangue, uma pequena amostra de sangue é coletada geralmente de uma veia no braço do paciente. Essa amostra é então enviada para um laboratório, onde é analisada por técnicos especializados. Existem diferentes tipos de exames de sangue, e cada um pode fornecer informações específicas sobre a saúde do indivíduo.
+                    <br><br>
+                    Esses átomos, quando expostos ao campo magnético, alinham-se em uma direção específica. Quando as ondas de rádio são desligadas, os átomos liberam energia e voltam ao seu estado original, produzindo sinais detectáveis ​​por antenas especiais. Esses sinais são processados por computadores para criar imagens detalhadas dos órgãos, músculos, ossos e outras estruturas internas.
+                </p>
+            </div>
+        </div>
+
+        <!-- Main part 02 -->
+        <div class="second_info">
+            <h2>Tipos comuns de Exames de Sangue</h2>
+            <div class="second__info_sangue">
+                <img src="src/img/coronavirus-blood-samples-assortment-lab.jpg" alt="Imagem Exame-de-Sangue 2">
+                <p> O exame de sangue desempenha um papel crucial na prevenção, diagnóstico e tratamento de uma ampla gama de condições médicas.</p>
+                <ul>
+                    <li>Hemograma Completo: Este exame avalia a contagem de glóbulos vermelhos, glóbulos brancos e plaquetas no sangue, fornecendo informações sobre a saúde geral do paciente.</li>
+                    <li>Perfil Lipídico: Avalia os níveis de colesterol e triglicerídeos no sangue, ajudando a avaliar o risco de doenças cardiovasculares.</li>
+                    <li>Glicemia: Mede os níveis de glicose no sangue, sendo útil no diagnóstico e monitoramento do diabetes.</li>
+                    <li>Perfil Hepático: Avalia a função do fígado, verificando os níveis de enzimas hepáticas e bilirrubina.</li>
+                    <li>Perfil Renal: Analisa a função dos rins, medindo os níveis de ureia, creatinina e eletrólitos no sangue.</li>
+                </ul>
+            </div>
+        </div>
+    </main>
+    <body class="show-chatbot">
+        <button class="chatbot-toggler">
+            <span class="material-symbols-outlined">chat</span>
+            <span class="material-symbols-outlined">close</span>
+        </button>
+        <div class="chatbot">
+            <header>
+                <h2>Clara_Help</h2>
+                <span class="close-btn material-symbols-outlined">close</span>
+            </header>
+            <ul class="chatbox">
+                <li class="chat incoming">
+                    <span class="material-symbols-outlined">support_agent</span>
+                    <p>Olá, me chamo Clara, sou uma assitente virtual do ICr hospital das clinicas. <br> Como posso te ajudar hoje?.</p>
+                </li>
+            </ul>
+            <div class="chat-input">
+                <textarea placeholder="Escreva sua mensagem..." required></textarea>
+                <span id="send-btn" class="material-symbols-outlined">send</span>
+            </div>
+        </div>
+    </body>
+    <footer>
+        <div class="direitos">
+        <p>Todos os direitos reservados a Tech do Bem ©Copyright</p>
+        </div>
+    </footer>
+</body>
+</html>
